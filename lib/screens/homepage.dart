@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
   List image = [
     {
       "image": "assets/levis.jpeg",
-      "price": "1500",
+      "price": "1050",
       "title": "LEVI'S",
       "desc": "White women t-shirt"
     },

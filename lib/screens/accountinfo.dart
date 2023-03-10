@@ -141,7 +141,8 @@ class AccountInfoScreen extends StatelessWidget {
                   ),
                   ListTile(
                     contentPadding: EdgeInsets.zero,
-                    leading: Icon(Icons.person),
+                    leading: CircleAvatar(
+                        backgroundImage: AssetImage("assets/pe.jpeg")),
                     title: Text(
                       "Name",
                       style: TextStyle(fontWeight: FontWeight.w500),
@@ -150,39 +151,43 @@ class AccountInfoScreen extends StatelessWidget {
                   ),
                   ListTile(
                     contentPadding: EdgeInsets.zero,
-                    leading: Icon(Icons.person),
+                    leading: CircleAvatar(
+                        backgroundImage: AssetImage("assets/call.jpeg")),
                     title: Text(
-                      "Name",
+                      "Mobile",
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                     subtitle: Text("Developer"),
                   ),
                   ListTile(
                     contentPadding: EdgeInsets.zero,
-                    leading: Icon(Icons.person),
+                    leading: CircleAvatar(
+                        backgroundImage: AssetImage("assets/mail.jpeg")),
                     title: Text(
-                      "Name",
+                      "Email",
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    subtitle: Text("Developer"),
+                    subtitle: Text("developer@shipnpp.com"),
                   ),
                   ListTile(
                     contentPadding: EdgeInsets.zero,
-                    leading: Icon(Icons.person),
+                    leading: CircleAvatar(
+                        backgroundImage: AssetImage("assets/map.jpeg")),
                     title: Text(
-                      "Name",
+                      "Address",
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    subtitle: Text("Developer"),
+                    subtitle: Text("Avenue 2 street"),
                   ),
                   ListTile(
                     contentPadding: EdgeInsets.zero,
-                    leading: Icon(Icons.person),
+                    leading: CircleAvatar(
+                        backgroundImage: AssetImage("assets/cal.jpeg")),
                     title: Text(
-                      "Name",
+                      "D.O.B",
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
-                    subtitle: Text("Developer"),
+                    subtitle: Text("12-05-1995"),
                   ),
                   SizedBox(
                     height: 25,
